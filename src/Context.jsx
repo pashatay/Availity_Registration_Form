@@ -27,18 +27,21 @@ function ContextProvider(props) {
     }));
   };
 
-  const handleClickButton = () => {
+  const handleClickButton = (e) => {
+    e.preventDefault();
     setFormCount((prevState) => prevState + 1);
   };
   const handleValidateBeforeClickButton = (e) => {
     e.preventDefault();
     return errorMsg.length !== 0 ? alert(errorMsg) : handleClickButton();
   };
-  const handleClickButtonBack = () => {
+  const handleClickButtonBack = (e) => {
+    e.preventDefault();
     setFormCount((prevState) => prevState - 1);
   };
 
-  const handleSubmitButton = () => {
+  const handleSubmitButton = (e) => {
+    e.preventDefault();
     console.log(JSON.stringify(formValues));
     //in real world i would make an api post request here
     setFormCount((prevState) => prevState + 1);
