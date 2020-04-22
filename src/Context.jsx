@@ -27,13 +27,12 @@ function ContextProvider(props) {
     }));
   };
 
-  const handleClickButton = (e) => {
-    e.preventDefault();
+  const handleClickButton = () => {
     setFormCount((prevState) => prevState + 1);
   };
   const handleValidateBeforeClickButton = (e) => {
     e.preventDefault();
-    return errorMsg.length !== 0 ? alert(errorMsg) : handleClickButton();
+    return errorMsg.length != 0 ? alert(errorMsg) : handleClickButton();
   };
   const handleClickButtonBack = (e) => {
     e.preventDefault();
@@ -50,7 +49,7 @@ function ContextProvider(props) {
 
   const validateNpi = () => {
     const numberLength = formValues.npi.toString().length;
-    return numberLength !== 10
+    return numberLength != 10
       ? setErrorMsg("NPI# must contain 10 digits!")
       : setErrorMsg("");
   };
