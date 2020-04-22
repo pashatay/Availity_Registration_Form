@@ -27,7 +27,8 @@ function ContextProvider(props) {
     }));
   };
 
-  const handleClickButton = () => {
+  const handleClickButton = (e) => {
+    e.preventDefault();
     setFormCount((prevState) => prevState + 1);
   };
   const handleValidateBeforeClickButton = (e) => {
