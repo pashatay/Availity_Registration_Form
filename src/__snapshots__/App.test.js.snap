@@ -1,0 +1,1644 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering tests Address renders without crashing 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <h3>
+        Enter your Business Address:
+      </h3>
+      <form
+        class="signup-form"
+      >
+        <input
+          name="street"
+          placeholder="street"
+          required=""
+          type="text"
+          value=""
+        />
+        <input
+          name="city"
+          placeholder="city"
+          required=""
+          type="text"
+          value=""
+        />
+        <select
+          name="state"
+          placeholder="state"
+        >
+          <option
+            value="State"
+          >
+            State
+          </option>
+          <option
+            value="AK"
+          >
+            AK
+          </option>
+          <option
+            value="AL"
+          >
+            AL
+          </option>
+          <option
+            value="AR"
+          >
+            AR
+          </option>
+          <option
+            value="AS"
+          >
+            AS
+          </option>
+          <option
+            value="AZ"
+          >
+            AZ
+          </option>
+          <option
+            value="CA"
+          >
+            CA
+          </option>
+          <option
+            value="CO"
+          >
+            CO
+          </option>
+          <option
+            value="CT"
+          >
+            CT
+          </option>
+          <option
+            value="DC"
+          >
+            DC
+          </option>
+          <option
+            value="DE"
+          >
+            DE
+          </option>
+          <option
+            value="FL"
+          >
+            FL
+          </option>
+          <option
+            value="GA"
+          >
+            GA
+          </option>
+          <option
+            value="GU"
+          >
+            GU
+          </option>
+          <option
+            value="HI"
+          >
+            HI
+          </option>
+          <option
+            value="IA"
+          >
+            IA
+          </option>
+          <option
+            value="ID"
+          >
+            ID
+          </option>
+          <option
+            value="IL"
+          >
+            IL
+          </option>
+          <option
+            value="IN"
+          >
+            IN
+          </option>
+          <option
+            value="KS"
+          >
+            KS
+          </option>
+          <option
+            value="KY"
+          >
+            KY
+          </option>
+          <option
+            value="LA"
+          >
+            LA
+          </option>
+          <option
+            value="MA"
+          >
+            MA
+          </option>
+          <option
+            value="MD"
+          >
+            MD
+          </option>
+          <option
+            value="ME"
+          >
+            ME
+          </option>
+          <option
+            value="MI"
+          >
+            MI
+          </option>
+          <option
+            value="MN"
+          >
+            MN
+          </option>
+          <option
+            value="MO"
+          >
+            MO
+          </option>
+          <option
+            value="MP"
+          >
+            MP
+          </option>
+          <option
+            value="MS"
+          >
+            MS
+          </option>
+          <option
+            value="MT"
+          >
+            MT
+          </option>
+          <option
+            value="NC"
+          >
+            NC
+          </option>
+          <option
+            value="ND"
+          >
+            ND
+          </option>
+          <option
+            value="NE"
+          >
+            NE
+          </option>
+          <option
+            value="NH"
+          >
+            NH
+          </option>
+          <option
+            value="NJ"
+          >
+            NJ
+          </option>
+          <option
+            value="NM"
+          >
+            NM
+          </option>
+          <option
+            value="NV"
+          >
+            NV
+          </option>
+          <option
+            value="NY"
+          >
+            NY
+          </option>
+          <option
+            value="OH"
+          >
+            OH
+          </option>
+          <option
+            value="OK"
+          >
+            OK
+          </option>
+          <option
+            value="OR"
+          >
+            OR
+          </option>
+          <option
+            value="PA"
+          >
+            PA
+          </option>
+          <option
+            value="PR"
+          >
+            PR
+          </option>
+          <option
+            value="RI"
+          >
+            RI
+          </option>
+          <option
+            value="SC"
+          >
+            SC
+          </option>
+          <option
+            value="SD"
+          >
+            SD
+          </option>
+          <option
+            value="TN"
+          >
+            TN
+          </option>
+          <option
+            value="TX"
+          >
+            TX
+          </option>
+          <option
+            value="UM"
+          >
+            UM
+          </option>
+          <option
+            value="UT"
+          >
+            UT
+          </option>
+          <option
+            value="VA"
+          >
+            VA
+          </option>
+          <option
+            value="VI"
+          >
+            VI
+          </option>
+          <option
+            value="VT"
+          >
+            VT
+          </option>
+          <option
+            value="WA"
+          >
+            WA
+          </option>
+          <option
+            value="WI"
+          >
+            WI
+          </option>
+          <option
+            value="WV"
+          >
+            WV
+          </option>
+          <option
+            value="WY"
+          >
+            WY
+          </option>
+        </select>
+        <input
+          name="zipcode"
+          placeholder="zip code"
+          required=""
+          type="number"
+          value=""
+        />
+        <button
+          id="back-next-bttn"
+        >
+          Back
+        </button>
+        <input
+          class="button"
+          id="back-next-bttn"
+          type="submit"
+          value="Next"
+        />
+      </form>
+    </div>
+  </body>,
+  "container": <div>
+    <h3>
+      Enter your Business Address:
+    </h3>
+    <form
+      class="signup-form"
+    >
+      <input
+        name="street"
+        placeholder="street"
+        required=""
+        type="text"
+        value=""
+      />
+      <input
+        name="city"
+        placeholder="city"
+        required=""
+        type="text"
+        value=""
+      />
+      <select
+        name="state"
+        placeholder="state"
+      >
+        <option
+          value="State"
+        >
+          State
+        </option>
+        <option
+          value="AK"
+        >
+          AK
+        </option>
+        <option
+          value="AL"
+        >
+          AL
+        </option>
+        <option
+          value="AR"
+        >
+          AR
+        </option>
+        <option
+          value="AS"
+        >
+          AS
+        </option>
+        <option
+          value="AZ"
+        >
+          AZ
+        </option>
+        <option
+          value="CA"
+        >
+          CA
+        </option>
+        <option
+          value="CO"
+        >
+          CO
+        </option>
+        <option
+          value="CT"
+        >
+          CT
+        </option>
+        <option
+          value="DC"
+        >
+          DC
+        </option>
+        <option
+          value="DE"
+        >
+          DE
+        </option>
+        <option
+          value="FL"
+        >
+          FL
+        </option>
+        <option
+          value="GA"
+        >
+          GA
+        </option>
+        <option
+          value="GU"
+        >
+          GU
+        </option>
+        <option
+          value="HI"
+        >
+          HI
+        </option>
+        <option
+          value="IA"
+        >
+          IA
+        </option>
+        <option
+          value="ID"
+        >
+          ID
+        </option>
+        <option
+          value="IL"
+        >
+          IL
+        </option>
+        <option
+          value="IN"
+        >
+          IN
+        </option>
+        <option
+          value="KS"
+        >
+          KS
+        </option>
+        <option
+          value="KY"
+        >
+          KY
+        </option>
+        <option
+          value="LA"
+        >
+          LA
+        </option>
+        <option
+          value="MA"
+        >
+          MA
+        </option>
+        <option
+          value="MD"
+        >
+          MD
+        </option>
+        <option
+          value="ME"
+        >
+          ME
+        </option>
+        <option
+          value="MI"
+        >
+          MI
+        </option>
+        <option
+          value="MN"
+        >
+          MN
+        </option>
+        <option
+          value="MO"
+        >
+          MO
+        </option>
+        <option
+          value="MP"
+        >
+          MP
+        </option>
+        <option
+          value="MS"
+        >
+          MS
+        </option>
+        <option
+          value="MT"
+        >
+          MT
+        </option>
+        <option
+          value="NC"
+        >
+          NC
+        </option>
+        <option
+          value="ND"
+        >
+          ND
+        </option>
+        <option
+          value="NE"
+        >
+          NE
+        </option>
+        <option
+          value="NH"
+        >
+          NH
+        </option>
+        <option
+          value="NJ"
+        >
+          NJ
+        </option>
+        <option
+          value="NM"
+        >
+          NM
+        </option>
+        <option
+          value="NV"
+        >
+          NV
+        </option>
+        <option
+          value="NY"
+        >
+          NY
+        </option>
+        <option
+          value="OH"
+        >
+          OH
+        </option>
+        <option
+          value="OK"
+        >
+          OK
+        </option>
+        <option
+          value="OR"
+        >
+          OR
+        </option>
+        <option
+          value="PA"
+        >
+          PA
+        </option>
+        <option
+          value="PR"
+        >
+          PR
+        </option>
+        <option
+          value="RI"
+        >
+          RI
+        </option>
+        <option
+          value="SC"
+        >
+          SC
+        </option>
+        <option
+          value="SD"
+        >
+          SD
+        </option>
+        <option
+          value="TN"
+        >
+          TN
+        </option>
+        <option
+          value="TX"
+        >
+          TX
+        </option>
+        <option
+          value="UM"
+        >
+          UM
+        </option>
+        <option
+          value="UT"
+        >
+          UT
+        </option>
+        <option
+          value="VA"
+        >
+          VA
+        </option>
+        <option
+          value="VI"
+        >
+          VI
+        </option>
+        <option
+          value="VT"
+        >
+          VT
+        </option>
+        <option
+          value="WA"
+        >
+          WA
+        </option>
+        <option
+          value="WI"
+        >
+          WI
+        </option>
+        <option
+          value="WV"
+        >
+          WV
+        </option>
+        <option
+          value="WY"
+        >
+          WY
+        </option>
+      </select>
+      <input
+        name="zipcode"
+        placeholder="zip code"
+        required=""
+        type="number"
+        value=""
+      />
+      <button
+        id="back-next-bttn"
+      >
+        Back
+      </button>
+      <input
+        class="button"
+        id="back-next-bttn"
+        type="submit"
+        value="Next"
+      />
+    </form>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Rendering tests App renders without crashing 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <header>
+          <nav>
+            <a
+              href="https://www.availity.com"
+            >
+              <img
+                alt="logo"
+                class="logo"
+                src="logo.jpg"
+              />
+            </a>
+            <a
+              class="about-us"
+              href="https://www.availity.com/History"
+            >
+              about us
+            </a>
+          </nav>
+        </header>
+        <h3>
+          Join Availity. Join the feature. 
+        </h3>
+        <p
+          class="mainpage-p"
+        >
+          We provide a variety of innovative solutions for HealthCare providers across the country. Let us help you today to become tomorrow.
+        </p>
+        <button
+          class="get-started-bttn"
+        >
+          Get Started
+        </button>
+        <footer>
+          <p
+            class="footer-copyright"
+          >
+            © Copyright 2020 Availity, LLC. All Rights Reserved.
+          </p>
+        </footer>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <header>
+        <nav>
+          <a
+            href="https://www.availity.com"
+          >
+            <img
+              alt="logo"
+              class="logo"
+              src="logo.jpg"
+            />
+          </a>
+          <a
+            class="about-us"
+            href="https://www.availity.com/History"
+          >
+            about us
+          </a>
+        </nav>
+      </header>
+      <h3>
+        Join Availity. Join the feature. 
+      </h3>
+      <p
+        class="mainpage-p"
+      >
+        We provide a variety of innovative solutions for HealthCare providers across the country. Let us help you today to become tomorrow.
+      </p>
+      <button
+        class="get-started-bttn"
+      >
+        Get Started
+      </button>
+      <footer>
+        <p
+          class="footer-copyright"
+        >
+          © Copyright 2020 Availity, LLC. All Rights Reserved.
+        </p>
+      </footer>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Rendering tests Contacts renders without crashing 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <h3>
+        Your contacts:
+      </h3>
+      <form
+        class="signup-form"
+      >
+        <input
+          name="phone"
+          placeholder="phone#"
+          required=""
+          type="text"
+          value=""
+        />
+        <input
+          name="email"
+          placeholder="email"
+          required=""
+          type="email"
+          value=""
+        />
+        <button
+          id="back-next-bttn"
+        >
+          Back
+        </button>
+        <input
+          class="button"
+          id="back-next-bttn"
+          type="submit"
+          value="Submit"
+        />
+      </form>
+    </div>
+  </body>,
+  "container": <div>
+    <h3>
+      Your contacts:
+    </h3>
+    <form
+      class="signup-form"
+    >
+      <input
+        name="phone"
+        placeholder="phone#"
+        required=""
+        type="text"
+        value=""
+      />
+      <input
+        name="email"
+        placeholder="email"
+        required=""
+        type="email"
+        value=""
+      />
+      <button
+        id="back-next-bttn"
+      >
+        Back
+      </button>
+      <input
+        class="button"
+        id="back-next-bttn"
+        type="submit"
+        value="Submit"
+      />
+    </form>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Rendering tests Footer renders without crashing 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <footer>
+        <p
+          class="footer-copyright"
+        >
+          © Copyright 2020 Availity, LLC. All Rights Reserved.
+        </p>
+      </footer>
+    </div>
+  </body>,
+  "container": <div>
+    <footer>
+      <p
+        class="footer-copyright"
+      >
+        © Copyright 2020 Availity, LLC. All Rights Reserved.
+      </p>
+    </footer>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Rendering tests Header renders without crashing 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <header>
+        <nav>
+          <a
+            href="https://www.availity.com"
+          >
+            <img
+              alt="logo"
+              class="logo"
+              src="logo.jpg"
+            />
+          </a>
+          <a
+            class="about-us"
+            href="https://www.availity.com/History"
+          >
+            about us
+          </a>
+        </nav>
+      </header>
+    </div>
+  </body>,
+  "container": <div>
+    <header>
+      <nav>
+        <a
+          href="https://www.availity.com"
+        >
+          <img
+            alt="logo"
+            class="logo"
+            src="logo.jpg"
+          />
+        </a>
+        <a
+          class="about-us"
+          href="https://www.availity.com/History"
+        >
+          about us
+        </a>
+      </nav>
+    </header>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Rendering tests Last renders without crashing 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <h3
+        class="confirmation"
+      >
+        We received your information. We will get in touch with you within two business days.
+        <br />
+         
+        <br />
+        Here is your confirmation number 
+        <span>
+          #
+          2028733
+        </span>
+        .
+      </h3>
+    </div>
+  </body>,
+  "container": <div>
+    <h3
+      class="confirmation"
+    >
+      We received your information. We will get in touch with you within two business days.
+      <br />
+       
+      <br />
+      Here is your confirmation number 
+      <span>
+        #
+        2028733
+      </span>
+      .
+    </h3>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Rendering tests Main renders without crashing 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <header>
+        <nav>
+          <a
+            href="https://www.availity.com"
+          >
+            <img
+              alt="logo"
+              class="logo"
+              src="logo.jpg"
+            />
+          </a>
+          <a
+            class="about-us"
+            href="https://www.availity.com/History"
+          >
+            about us
+          </a>
+        </nav>
+      </header>
+      <h3>
+        Join Availity. Join the feature. 
+      </h3>
+      <p
+        class="mainpage-p"
+      >
+        We provide a variety of innovative solutions for HealthCare providers across the country. Let us help you today to become tomorrow.
+      </p>
+      <button
+        class="get-started-bttn"
+      >
+        Get Started
+      </button>
+      <footer>
+        <p
+          class="footer-copyright"
+        >
+          © Copyright 2020 Availity, LLC. All Rights Reserved.
+        </p>
+      </footer>
+    </div>
+  </body>,
+  "container": <div>
+    <header>
+      <nav>
+        <a
+          href="https://www.availity.com"
+        >
+          <img
+            alt="logo"
+            class="logo"
+            src="logo.jpg"
+          />
+        </a>
+        <a
+          class="about-us"
+          href="https://www.availity.com/History"
+        >
+          about us
+        </a>
+      </nav>
+    </header>
+    <h3>
+      Join Availity. Join the feature. 
+    </h3>
+    <p
+      class="mainpage-p"
+    >
+      We provide a variety of innovative solutions for HealthCare providers across the country. Let us help you today to become tomorrow.
+    </p>
+    <button
+      class="get-started-bttn"
+    >
+      Get Started
+    </button>
+    <footer>
+      <p
+        class="footer-copyright"
+      >
+        © Copyright 2020 Availity, LLC. All Rights Reserved.
+      </p>
+    </footer>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Rendering tests Name renders without crashing 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <h3>
+        Your name:
+      </h3>
+      <form
+        class="signup-form"
+      >
+        <input
+          name="firstName"
+          placeholder="first name"
+          required=""
+          type="text"
+          value=""
+        />
+        <input
+          name="lastName"
+          placeholder="last name"
+          required=""
+          type="text"
+          value=""
+        />
+        <input
+          class="button"
+          id="back-next-bttn"
+          type="submit"
+          value="Next"
+        />
+      </form>
+    </div>
+  </body>,
+  "container": <div>
+    <h3>
+      Your name:
+    </h3>
+    <form
+      class="signup-form"
+    >
+      <input
+        name="firstName"
+        placeholder="first name"
+        required=""
+        type="text"
+        value=""
+      />
+      <input
+        name="lastName"
+        placeholder="last name"
+        required=""
+        type="text"
+        value=""
+      />
+      <input
+        class="button"
+        id="back-next-bttn"
+        type="submit"
+        value="Next"
+      />
+    </form>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Rendering tests Npi renders without crashing 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <h3>
+        Enter your 10-digit NPI number:
+      </h3>
+      <form
+        class="signup-form"
+      >
+        <input
+          name="npi"
+          placeholder="NPI#"
+          required=""
+          type="number"
+          value=""
+        />
+        <button
+          id="back-next-bttn"
+        >
+          Back
+        </button>
+        <input
+          class="button"
+          id="back-next-bttn"
+          type="submit"
+          value="Next"
+        />
+      </form>
+    </div>
+  </body>,
+  "container": <div>
+    <h3>
+      Enter your 10-digit NPI number:
+    </h3>
+    <form
+      class="signup-form"
+    >
+      <input
+        name="npi"
+        placeholder="NPI#"
+        required=""
+        type="number"
+        value=""
+      />
+      <button
+        id="back-next-bttn"
+      >
+        Back
+      </button>
+      <input
+        class="button"
+        id="back-next-bttn"
+        type="submit"
+        value="Next"
+      />
+    </form>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

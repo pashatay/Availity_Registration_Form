@@ -1,0 +1,79 @@
+.signup-form {
+  margin-top: 5%;
+  text-align: center;
+}
+input,
+select {
+  display: block;
+  width: 80%;
+  height: 2rem;
+  margin: auto;
+  border: 3px solid rgba(0, 0, 0, 0.801);
+  font-size: 1.3rem;
+  margin-top: 3%;
+  padding: 2%;
+}
+
+#back-next-bttn {
+  width: 45%;
+  margin: 10% 1% 0 0;
+  display: inline-block;
+  height: auto;
+  border: 3px solid #ff8c00;
+  background-color: white;
+  font-weight: 700;
+  color: #ff8c00;
+  cursor: pointer;
+  font-size: 1.5rem;
+  padding: 2%;
+}
+#back-next-bttn:hover {
+  background-color: #ff8c00;
+  color: white;
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  input,
+  select {
+    width: 70%;
+    font-size: 1.5rem;
+    margin-top: 5%;
+    padding: 3%;
+  }
+  #back-next-bttn {
+    margin: 18% 1% 0 0;
+    padding: 3%;
+  }
+}
+
+@media only screen and (min-device-width: 319px) and (max-device-width: 825px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  input,
+  select {
+    width: 70%;
+    font-size: 1.5rem;
+    margin-top: 5%;
+    padding: 3%;
+  }
+  #back-next-bttn {
+    margin: 18% 1% 0 0;
+    padding: 3%;
+  }
+}
+@media (min-width: 1024px) {
+  .signup-form {
+    margin-top: 3%;
+    text-align: center;
+  }
+  input,
+  select {
+    width: 50%;
+    height: 2rem;
+    padding: 2%;
+    margin-top: 1%;
+  }
+  #back-next-bttn {
+    width: 20%;
+    margin: 4% 1% 0 0;
+    font-size: 1.8rem;
+    padding: 1%;
+  }
+}

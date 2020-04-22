@@ -1,0 +1,45 @@
+.logo {
+  width: 10rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  margin: 2%;
+  justify-content: center;
+}
+nav > a {
+  margin: 3%;
+  align-self: center;
+  align-items: center;
+}
+.about-us {
+  margin: auto;
+}
+a:link,
+a:visited,
+a:active {
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  font-weight: 900;
+}
+
+a:hover {
+  color: rgba(0, 0, 0, 0.815);
+  text-decoration: none;
+}
+
+@media (min-width: 1024px) {
+  .logo {
+    width: 30rem;
+  }
+  a {
+    font-size: 3rem;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    margin: 2%;
+    justify-content: center;
+  }
+}

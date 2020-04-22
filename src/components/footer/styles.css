@@ -1,0 +1,24 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+p {
+  margin: 3%;
+  text-align: center;
+}
+.footer-copyright {
+  margin: 3%;
+  font-size: 0.8rem;
+}
+
+@media (min-width: 1024px) {
+  footer {
+    position: absolute;
+    top: 99%;
+  }
+  .footer-copyright {
+    margin: 3%;
+    font-size: 1rem;
+  }
+}
