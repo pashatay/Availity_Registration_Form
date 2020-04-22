@@ -19,7 +19,7 @@ nav > a {
 a:link,
 a:visited,
 a:active {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.411);
   text-decoration: none;
   font-weight: 900;
 }
@@ -37,9 +37,9 @@ a:hover {
     font-size: 3rem;
   }
   nav {
-    display: flex;
-    align-items: center;
-    margin: 2%;
-    justify-content: center;
+    margin: 0;
+  }
+  .about-us {
+    margin-right: 5%;
   }
 }

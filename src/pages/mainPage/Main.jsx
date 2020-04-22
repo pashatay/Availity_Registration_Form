@@ -14,10 +14,10 @@ function Main() {
   const { formCount, handleClickButton } = useContext(Context);
   const introduction = (
     <>
-      <h3>Join Availity. Join the feature. </h3>
+      <h3>Join Availity. Join the future. </h3>
       <p className="mainpage-p">
         We provide a variety of innovative solutions for HealthCare providers
-        across the country. Let us help you today to become tomorrow.
+        across the country. Let us help you today. Register online.
       </p>
       <button class="get-started-bttn" onClick={handleClickButton}>
         Get Started

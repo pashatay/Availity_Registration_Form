@@ -1,6 +1,6 @@
 footer {
-  position: fixed;
-  bottom: 0;
+  position: relative;
+  margin-top: 20%;
   width: 100%;
 }
 p {
@@ -13,10 +13,6 @@ p {
 }
 
 @media (min-width: 1024px) {
-  footer {
-    position: absolute;
-    top: 99%;
-  }
   .footer-copyright {
     margin: 3%;
     font-size: 1rem;
