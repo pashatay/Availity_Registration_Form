@@ -11,7 +11,7 @@ The form is designed to collect the following info from the providers:
 - Telephone Number
 - Email address
 
-The form was built following the **"mobile-first"** approach. It's fully scalable.
+The form was build following the **"mobile-first"** approach. It's fully scalable.
 
 Techonologies I used to build this:
 React (Context, Hooks), Node/Express, CSS, HTML.
