@@ -17,7 +17,7 @@ function Main() {
       <h3>Join Availity. Join the future. </h3>
       <p className="mainpage-p">
         We provide a variety of innovative solutions for HealthCare providers
-        across the country. Let us help you today. Register online.
+        acrossthe country. Let us help you today. Register online.
       </p>
       <button class="get-started-bttn" onClick={handleClickButton}>
         Get Started
