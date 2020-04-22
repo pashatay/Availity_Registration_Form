@@ -19,8 +19,7 @@ function ContextProvider(props) {
   const [formValues, setFormValues] = useState(formDefaultValues);
   const [errorMsg, setErrorMsg] = useState("");
 
-  const handleFormValuesChange = (e) => {
-    const target = e.target;
+  const handleFormValuesChange = () => {
     setFormValues((prevState) => ({
       ...prevState,
       [target.name]: target.value.trim(),
