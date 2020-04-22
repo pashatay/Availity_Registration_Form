@@ -19,15 +19,15 @@ function ContextProvider(props) {
   const [formValues, setFormValues] = useState(formDefaultValues);
   const [errorMsg, setErrorMsg] = useState("");
 
-  const handleFormValuesChange = () => {
+  const handleFormValuesChange = (e) => {
+    const target = e.target;
     setFormValues((prevState) => ({
       ...prevState,
       [target.name]: target.value.trim(),
     }));
   };
 
-  const handleClickButton = (e) => {
-    e.preventDefault();
+  const handleClickButton = () => {
     setFormCount((prevState) => prevState + 1);
   };
   const handleValidateBeforeClickButton = (e) => {
