@@ -34,13 +34,11 @@ function ContextProvider(props) {
     e.preventDefault();
     return errorMsg.length != 0 ? alert(errorMsg) : handleClickButton();
   };
-  const handleClickButtonBack = (e) => {
-    e.preventDefault();
+  const handleClickButtonBack = () => {
     setFormCount((prevState) => prevState - 1);
   };
 
-  const handleSubmitButton = (e) => {
-    e.preventDefault();
+  const handleSubmitButton = () => {
     console.log(JSON.stringify(formValues));
     //in real world i would make an api post request here
     setFormCount((prevState) => prevState + 1);
