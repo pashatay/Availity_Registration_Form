@@ -32,7 +32,7 @@ function ContextProvider(props) {
   };
   const handleValidateBeforeClickButton = (e) => {
     e.preventDefault();
-    return errorMsg.length != 0 ? alert(errorMsg) : handleClickButton();
+    return errorMsg.length !== 0 ? alert(errorMsg) : handleClickButton();
   };
   const handleClickButtonBack = () => {
     setFormCount((prevState) => prevState - 1);
@@ -47,7 +47,7 @@ function ContextProvider(props) {
 
   const validateNpi = () => {
     const numberLength = formValues.npi.toString().length;
-    return numberLength != 10
+    return numberLength !== 10
       ? setErrorMsg("NPI# must contain 10 digits!")
       : setErrorMsg("");
   };
